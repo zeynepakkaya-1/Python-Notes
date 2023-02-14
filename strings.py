@@ -71,3 +71,9 @@ print("I love\nVikings.") # new-line
 print("I love\tVikings.") # tab
 print("I love\rVikings.") # carriage return
 print("I love \bVikings.") # back space # I loveVikings.
+
+# Formatting
+print("The price is {:.2f} dollars".format(10)) # The price is 10.00 dollars
+
+my_car = "I have a {carname}, it is a {model}."
+print(my_car.format(carname = "Ford", model = "Mustang")) # I have a Ford, it is a Mustang.
