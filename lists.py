@@ -101,3 +101,20 @@ print(car_brands) # []
 del car_brands
 del car_brands_copy
 del car_brands_copy2
+
+# enumerate
+numbers = [1,2,3]
+for i, e in enumerate(numbers):
+    print("Index:", i , "Number:", e)
+"""
+Index: 0 Number: 1
+Index: 1 Number: 2
+Index: 2 Number: 3
+"""
+for i, e in enumerate(numbers, start=100):
+    print("Index:", i , "Number:", e)
+"""
+Index: 100 Number: 1
+Index: 101 Number: 2
+Index: 102 Number: 3
+"""
