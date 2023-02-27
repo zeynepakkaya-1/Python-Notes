@@ -8,6 +8,11 @@ else:
   print("Nothing went wrong")
 finally:
   print("The 'try except' is finished") #
+  
+try:
+  x = int(input("Input an integer: "))
+except(ValueError):
+  print("It is not an integer.")
 
 # files
 try:

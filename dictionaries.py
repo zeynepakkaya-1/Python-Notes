@@ -61,3 +61,11 @@ x = ('key1', 'key2', 'key3')
 y = 0
 thisdict = dict.fromkeys(x, y)
 print(thisdict) # {'key1': 0, 'key2': 0, 'key3': 0}
+
+# zip()
+keys = ['name', 'age']
+values = ['Zeynep', 21]
+d = {}
+for k, v in zip(keys, values):
+  d[k] = v
+print(d) # {'name': 'Zeynep', 'age': 21}
