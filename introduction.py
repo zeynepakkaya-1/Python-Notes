@@ -79,3 +79,13 @@ print(isinstance(200, int)) # True
 
 print(20 / 6) # 3.3
 print(20 // 6) # 3
+
+print(3.) # 3.0
+
+print(int()) # 0
+print(float()) # 0.0
+print(bool()) # False
+
+print(4 * 'hi') # hihihihi
+
+tuple1 = 1, 2, 3, 4
