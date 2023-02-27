@@ -58,3 +58,4 @@ print(math.factorial(5)) # 120
 print(math.isinf(math.inf)) # True
 print(math.isfinite(math.inf)) # False
 print(math.isnan(math.nan)) # True
+#
